@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="praticar">
 <head>
+    <link rel="stylesheet" href="CSS/style.CSS">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Pessoal </title>
@@ -8,9 +9,16 @@
 <body>
     <header>
         <h1>Minha Página Pessoal</h1>
-    </header>
 
+        <nav>
+        <a href="contato.html">Entre em Contato</a>
+        <a href="https://olhardigital.com.br/">Tecnologia</a>
+    </nav>
+
+    </header>
+    <fieldset>
     <section>
+        
         <h2>Apresentação</h2>
         <p>Meu nome é Thiago Martins Vicente, moro em Barbacena, MG.
             Iniciei minha trajetória profissional  como técnico eletricista
@@ -23,37 +31,9 @@
 
         <img src="Img/Foto pessoal.jpg", alt="Foto pessoal de Thiago Martins", height="450px", width="300px">
     </section>
-     <main>
-        <section>
-            <h2> Entre em Contato </h2>
-            <form method="post" action="/cadastro">
-              <fieldset> 
-                <legend>Dados pessoais</legend>
-                    <label for="nome">Nome</label>
-                    <input type="text" id="nome" name="nome" placeholder="nome">
-                    <br>
-                    <br>
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" name="email" required placeholder="e-mail"> 
-                    
-              </fieldset>
-              <fieldset>
-                <legend>Informações</legend>
-                    <label for="assunto">Assunto</label>
-                    <input type="text" id="assunto" name="assunto" placeholder="Digite o assunto">
-                    <br>
-                    <br>
-                    <label for="mensagem">Mensagem</label>
-                    <br>
-                    <textarea name="mensagem" id="mensagem"></textarea>
-                    <button type="submit">Enviar</button>
-                    <button type="reset">Limpar</button>
-              </fieldset>
-            </form>
-        </section>
-     </main>
-    <section>
-        <h2>Hobbies </h2>
+     
+    <section class="hobbie">
+        <h2 class="segundo">Hobbies </h2>
         <ul>
             <li>Crossfit</li>
             <li>Música</li>
@@ -61,10 +41,9 @@
             <li>Filosofia</li>
         </ul>
     </section>
-    <nav>
-        <a href="sobre.html">Sobre</a>
-        <a href="https://olhardigital.com.br/">Tecnologia</a>
-    </nav>
+    </fieldset>
+    
+    
 
     <footer>
         Thiago Martins <a href="https://www.linkedin.com/in/thiago-martins-782b51138">Saiba mais</a>   
