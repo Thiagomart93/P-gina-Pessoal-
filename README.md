@@ -10,4 +10,6 @@ WEB.
 Atualizações recentes 
 24/10/2026 Adicionado seção de contatos com a implementação de um formulário 
 
-Tecnologias utilizadas - HTML - Git - GitHub
+01/11/2026 Adicionado Página de estilos ao projeto e alteração da página sobre para contatos, aonde ficou o formulário para contatos.
+
+Tecnologias utilizadas - HTML - Git - GitHub - CSS
