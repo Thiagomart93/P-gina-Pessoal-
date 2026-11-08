@@ -12,4 +12,6 @@ Atualizações recentes
 
 01/11/2026 Adicionado Página de estilos ao projeto e alteração da página sobre para contatos, aonde ficou o formulário para contatos. também foi organizado alguns elementos da página como fotos e textos para melhor experiência visual.
 
+08/11/2026 Implementação com Flexbox e Grid aos aspectos da página WEB.
+
 Tecnologias utilizadas - HTML - Git - GitHub - CSS
