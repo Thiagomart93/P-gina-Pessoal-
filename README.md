@@ -14,4 +14,6 @@ Atualizações recentes
 
 08/11/2026 Implementação com Flexbox e Grid aos aspectos da página WEB.
 
+17/11/2026 Implementação dos estudo em CSS responsividade à página pessoal.
+
 Tecnologias utilizadas - HTML - Git - GitHub - CSS
